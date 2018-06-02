@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "./Map";
 
 import {
   Button,
@@ -68,11 +69,7 @@ class MapSidebar extends React.Component {
           </Sidebar>
           <Sidebar.Pusher>
             <Segment basic>
-              <Header as="h3">Application Content</Header>
-              <p />
-              <p />
-              <p />
-              <p />
+              <Map />
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
