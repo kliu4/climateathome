@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "semantic-ui-css/semantic.min.css";
+import "react-bootstrap-table/dist/react-bootstrap-table.min.css";
 
 import React from "react";
 import ReactDOM from "react-dom";

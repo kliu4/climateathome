@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <div>
           <Header />
-          <div style={{ height: "100vh", "background-color": "gray" }}>
+          <div>
             <Route path="/leaderboard" component={Leaderboard} />
             <Route path="/map" component={MapContainer} />
           </div>
