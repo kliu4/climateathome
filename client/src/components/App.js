@@ -5,10 +5,6 @@ import Header from "./Header";
 import Leaderboard from "./Leaderboard";
 import MapContainer from "./MapContainer";
 
-function Map() {
-  return <h2>Map</h2>;
-}
-
 function App() {
   return (
     <div>
